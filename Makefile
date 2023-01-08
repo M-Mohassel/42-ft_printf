@@ -1,7 +1,6 @@
 NAME = libftprintf.a
 src = \
-ft_putchar.c	ft_putnbr.c		ft_printf.c
-
+ft_printf.c		ft_hex.c	ft_putfunc.c
 obj = $(src:.c=.o)
 
 CC = cc
